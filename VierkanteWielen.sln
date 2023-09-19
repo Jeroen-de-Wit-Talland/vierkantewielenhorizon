@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VierkanteWielen.API", ".\api\VierkanteWielen.API\VierkanteWielen.API.csproj", "{810FD54A-CB83-46AF-B25E-324C808741A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VierkanteWielen.Blazor", ".\frontend\VierkanteWielen.Blazor\VierkanteWielen.Blazor.csproj", "{F948A336-7A78-4F71-8869-3606BC02D905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VierkanteWielen.Shared", ".\shared\VierkanteWielen.Shared\VierkanteWielen.Shared.csproj", "{F6F9D0AA-43C7-4C73-91BE-1D351D84E83F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{810FD54A-CB83-46AF-B25E-324C808741A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810FD54A-CB83-46AF-B25E-324C808741A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810FD54A-CB83-46AF-B25E-324C808741A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810FD54A-CB83-46AF-B25E-324C808741A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F948A336-7A78-4F71-8869-3606BC02D905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F948A336-7A78-4F71-8869-3606BC02D905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F948A336-7A78-4F71-8869-3606BC02D905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F948A336-7A78-4F71-8869-3606BC02D905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F9D0AA-43C7-4C73-91BE-1D351D84E83F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F9D0AA-43C7-4C73-91BE-1D351D84E83F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F9D0AA-43C7-4C73-91BE-1D351D84E83F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F9D0AA-43C7-4C73-91BE-1D351D84E83F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
