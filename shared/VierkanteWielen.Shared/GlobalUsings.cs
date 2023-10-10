@@ -1,0 +1,11 @@
+global using System;
+global using System.Linq;
+global using System.Collections.Generic;
+global using Microsoft.AspNet.Identity.EntityFramework;
+global using System.ComponentModel.DataAnnotations;
+global using System.ComponentModel.DataAnnotations.Schema;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Design;
+global using Microsoft.EntityFrameworkCore.SqlServer;
+global using Microsoft.EntityFrameworkCore.Migrations;
+global using Microsoft.Data.Sql;
