@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,16 +8,12 @@ using VierkanteWielen.Shared.Models;
 
 namespace VierkanteWielen.Shared.Data
 {
-    internal class VierkanteWielenContext : IdentityDbContext
+    public class VierkanteWielenContext : IdentityDbContext
     {
-        public VierkanteWielenContext()
+        public VierkanteWielenContext(DbContextOptions options) : base(options)
         {
-            
         }
-        protected override void OnModelCreating(System.Data.Entity.DbModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
-        }
+
         public DbSet<Les> Lessen { get; set; }
 
 
